@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Imposter Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Part 1: Navbar -->
+  <header class="navbar">
+    <div class="logo">FindImposter</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Login</a>
+    </div>
+    <div class="welcome">Welcome!</div>
+  </header>
+
+  <!-- Part 2 & 3: Sidebar + Main Area -->
+  <div class="container">
+    <aside class="sidebar">
+      <div class="side-links">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Login</a>
+      </div>
+      <div class="bottom-links">
+        <a href="#">Settings</a>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <h1>Find Imposter</h1>
+      <p>Find the imposter and win the <span>TROPHY</span>!</p>
+
+      <!-- Part 4: Image Grid -->
+      <div class="image-grid">
+        <!-- 16 images total (1 imposter) -->
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img src="images/imposter written.avif" alt="Crew">
+        <img id="imposter" src="images/imposter.png" alt="Imposter">
+      </div>
+    </main>
+  </div>
+
+  <!-- Part 5: Footer -->
+  <footer class="footer">
+    Nusrat Jahan @copyright
+  </footer>
+
+  <script>
+    // JS for Imposter click
+    document.getElementById("imposter").addEventListener("click", function() {
+      alert("🎉 You Win! You found the Imposter!");
+    });
+  </script>
+</body>
+</html>
